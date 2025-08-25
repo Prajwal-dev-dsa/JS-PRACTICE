@@ -9,3 +9,26 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.center {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boxColor {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+.boxColor img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    transform: translateY(100%);
+}
